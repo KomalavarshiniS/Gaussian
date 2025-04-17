@@ -27,7 +27,6 @@ Program to solve a matrix using Gaussian elimination without partial pivoting.
 Developed by: KOMALAVARSHINI.S
 RegisterNumber: 212224230133
 '''
-
 import numpy as np
 import sys
 n=int(input())

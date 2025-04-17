@@ -21,11 +21,13 @@ Step 4:
 End the program
 
 ## Program:
+```
 '''
 Program to solve a matrix using Gaussian elimination without partial pivoting.
 Developed by: KOMALAVARSHINI.S
 RegisterNumber: 212224230133
 '''
+
 import numpy as np
 import sys
 n=int(input())
@@ -49,6 +51,8 @@ for i in range(n-2,-1,-1):
     x[i]=x[i]/a[i][i]
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i]),end=' ')
+
+```    
     
 
 ## Output:
